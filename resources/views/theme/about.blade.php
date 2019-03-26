@@ -80,7 +80,7 @@
     </div>
 </div>
 
-<div id="colorlib-subscribe" style="background-image: url({{asset('theme/images/img_bg_2.jpg')}});">
+<div id="colorlib-subscribe" style="background-image: url({{asset('theme/images/banner.jpg')}});">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">

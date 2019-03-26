@@ -3,35 +3,38 @@
 <aside id="colorlib-hero">
     <div class="flexslider">
         <ul class="slides">
-        <li style="background-image: url({{asset('theme/images/img_bg_5.jpg')}});">
+        <li style="background-image: url({{asset('theme/images/slider1.jpg')}});">
             <div class="overlay"></div>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 col-sm-12 col-md-offset-3 slider-text">
                         <div class="slider-text-inner text-center">
-                            <h2>Welcome to the MyAewsomeHotel</h2>
-                            <h1>A My AewSome Hotel</h1>
-                                <p><a class="btn btn-primary btn-demo" href="#"></i> View Detail</a><a class="btn btn-primary btn-learn">Know More</a></p>
+                            <h2>Welcome to the Pokhara</h2>
+                            <h1>Hotel Lekhnath View Tower</h1>
+                            <p>
+                                <a class="btn btn-primary btn-demo" href="{{route('about')}}"></i> View Detail</a>
+                                <a class="btn btn-primary btn-learn">Know More</a>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </li>
-        <li style="background-image: url({{asset('theme/images/img_bg_1.jpg')}});">
+        <li style="background-image: url({{asset('theme/images/slider4.jpg')}});">
             <div class="overlay"></div>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 col-sm-12 col-md-offset-3 slider-text">
                         <div class="slider-text-inner text-center">
                             <h2>Discover &amp; Enjoy</h2>
-                            <h1>Everything you need in luxehotel</h1>
-                                <p><a class="btn btn-primary btn-demo" href="#"></i> View Detail</a> <a class="btn btn-primary btn-learn">Know More</a></p>
+                            <h1>Everything you need</h1>
+                                <p><a class="btn btn-primary btn-demo" href="{{route('amnities')}}"></i> View Detail</a> <a class="btn btn-primary btn-learn">Know More</a></p>
                         </div>
                     </div>
                 </div>
             </div>
         </li>
-        <li style="background-image: url({{asset('theme/images/img_bg_3.jpg')}});">
+        <li style="background-image: url({{asset('theme/images/slider3.jpg')}});">
             <div class="overlay"></div>
             <div class="container-fluids">
                 <div class="row">
@@ -39,21 +42,21 @@
                         <div class="slider-text-inner text-center">
                             <h2>You are invited</h2>
                             <h1>We know how to please you</h1>
-                                <p><a class="btn btn-primary btn-demo" href="#"></i> View Detail</a> <a class="btn btn-primary btn-learn">Know More</a></p>
+                                <p><a class="btn btn-primary btn-demo" href="{{route('amnities')}}"></i> View Detail</a> <a class="btn btn-primary btn-learn">Know More</a></p>
                         </div>
                     </div>
                 </div>
             </div>
         </li>
-        <li style="background-image: url({{asset('theme/images/img_bg_4.jpg')}});">
+        <li style="background-image: url({{asset('theme/images/slider2.jpg')}});">
             <div class="overlay"></div>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 col-sm-12 col-md-offset-3 slider-text">
                         <div class="slider-text-inner text-center">
                             <h2>Come &amp; enjoy the unforgetable nights</h2>
-                            <h1>In the heart of luxehotel</h1>
-                                <p><a class="btn btn-primary btn-demo" href="#"></i> View Detail</a> <a class="btn btn-primary btn-learn">Know More</a></p>
+                            <h1>Make this journey comfortable for both</h1>
+                                <p><a class="btn btn-primary btn-demo" href="{{route('rooms')}}"></i> View Detail</a> <a class="btn btn-primary btn-learn">Know More</a></p>
                         </div>
                     </div>
                 </div>
@@ -218,7 +221,7 @@
                     <div class="item">
                         <a href="{{url($room->image_path)}}" class="room image-popup-link" style="background-image: url({{url($room->image_path)}});"></a>
                         <div class="desc text-center">
-                            <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span>
+                            {{-- <span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> --}}
                             <h3><a href="rooms-suites.html">Suite</a></h3>
                             <p class="price">
                                 <span class="currency">NPR</span>
@@ -249,7 +252,6 @@
 <div id="colorlib-dining-bar">
     <div class="container">
         <div class="row">
-            
         </div>
         <div class="row">
             <div class="diningbar-flex">
@@ -261,14 +263,14 @@
                     <div class="clearfix"></div>
                 <div class="tab-content">
                     <div style="color:#333333">
-                        <p>The Hotel <b>Hesperia</b> is the right choice for visitors who are searching for a combination of charm, peace and quiet, and a convenient position from which to explore Lake Side. It is a small, comfortable hotel, situated on the Canale di Cannaregio. The Derai family and their staff offer an attentive, personalized service and are always available to offer any help to guests.
-                        The hotel is arranged on three floors, without a lift. On the ground floor, apart from the reception, there is a comfortable lounge where you can sit and drink tea, or just read. There is also a splendid terrace, where, you can relax and immerge yourself from morning onwards in the atmosphere of Pokhara daily life
-                        The rooms are arranged on the first, second and third floors. On the top floor, there is also a delightful terrace or solarium available for the use of guests, from where you can enjoy the wonderful view.
-                        The buffet breakfast is served in the lounge on the ground floor, and also outside on our little patio during the summer months.</p>
+                        <p>The Hotel <b>Lekhnath View Tower</b> is the right choice for visitors who are searching for a combination of charm, peace and quiet, and a convenient position from which to explore Lake Side. It is a small, comfortable hotel, situated on the pachbhaiya, pokhara -31;. The Derai family and their staff offer an attentive, personalized service and are always available to offer any help to guests.
+                        The hotel is arranged on two floors, without a lift. On the ground floor, apart from the reception, there is a comfortable lounge where you can sit and drink tea, or just read. There is also a splendid terrace, where, you can relax and immerge yourself from morning onwards in the atmosphere of Pokhara daily life
+                        The rooms are arranged on the first and second. On the top floor, there is also a delightful terrace or solarium available for the use of guests, from where you can enjoy the wonderful view.
+                        The breakfast is served in the lounge on the ground floor, and also outside during the summer months.</p>
                     </div>
                 </div>
              </div>
-             <div class="half diningbar-img" style="background-image: url({{asset('theme/images/cover_img_1.jpg')}});"></div>
+             <div class="half diningbar-img" style="background-image: url({{asset('theme/images/home.jpg')}});"></div>
           </div>
        </div>
   </div>
@@ -284,41 +286,65 @@
             </div>
         </div>
         <div class="blog-flex">
-            <div class="video colorlib-video" style="background-image: url({{asset('theme/images/food.jpg')}});">
+            <div class="video colorlib-video" style="background-image: url({{asset('theme/images/slider3.jpg')}});">
             </div>
             <div class="blog-entry">
                 <div class="row">
-                    <div class="col-md-12 animate-box">
+                    <div class="col-md-6 animate-box">
                             <span class="img" style="background-image: url({{asset('theme/images/breakfast.jpg')}});"></span>
                             <div class="desc">
                                 <h3>Break Fast</h3>
                                 <span class="cat"> Rs 100</span>
                             </div>
-                        </a>
                     </div>
-                    <div class="col-md-12 animate-box">
-                            <span class="img" style="background-image: url({{asset('theme/images/blog-2.jpg')}});"></span>
-                            <div class="desc">
-                                <h3>Vegeterain</h3>
-                                <span class="cat">Rs 150</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-12 animate-box">
-                            <span class="img" style="background-image: url({{asset('theme/images/non-veg.jpg')}});"></span>
-                            <div class="desc">
-                                <h3>Non-Vegeterain</h3>
-                                <span class="cat">Rs 300</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-12 animate-box">
+                    <div class="col-md-6 animate-box">
                             <span class="img" style="background-image: url({{asset('theme/images/blog-2.jpg')}});"></span>
                             <div class="desc">
                                 <h3>Fish</h3>
                                 <span class="cat">Rs 200</span>
                             </div>
-                        </a>
+                    </div>
+                    <div class="col-md-6 animate-box">
+                            <span class="img" style="background-image: url({{asset('theme/images/blog-2.jpg')}});"></span>
+                            <div class="desc">
+                                <h3>Vegeterain</h3>
+                                <span class="cat">Rs 150</span>
+                            </div>
+                    </div>
+                    <div class="col-md-6 animate-box">
+                            <span class="img" style="background-image: url({{asset('theme/images/non-veg.jpg')}});"></span>
+                            <div class="desc">
+                                <h3>Non-Vegeterain</h3>
+                                <span class="cat">Rs 300</span>
+                            </div>
+                    </div>
+                    <div class="col-md-6 animate-box">
+                            <span class="img" style="background-image: url({{asset('theme/images/blog-2.jpg')}});"></span>
+                            <div class="desc">
+                                <h3>Fish</h3>
+                                <span class="cat">Rs 200</span>
+                            </div>
+                    </div>
+                    <div class="col-md-6 animate-box">
+                            <span class="img" style="background-image: url({{asset('theme/images/breakfast.jpg')}});"></span>
+                            <div class="desc">
+                                <h3>Break Fast</h3>
+                                <span class="cat"> Rs 100</span>
+                            </div>
+                    </div>
+                    <div class="col-md-6 animate-box">
+                            <span class="img" style="background-image: url({{asset('theme/images/blog-2.jpg')}});"></span>
+                            <div class="desc">
+                                <h3>Fish</h3>
+                                <span class="cat">Rs 200</span>
+                            </div>
+                    </div>
+                    <div class="col-md-6 animate-box">
+                            <span class="img" style="background-image: url({{asset('theme/images/blog-2.jpg')}});"></span>
+                            <div class="desc">
+                                <h3>Fish</h3>
+                                <span class="cat">Rs 200</span>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -371,7 +397,7 @@
 </div>
 
 
-<div id="colorlib-subscribe" style="background-image: url({{asset('theme/images/img_bg_2.jpg')}});">
+<div id="colorlib-subscribe" style="background-image: url({{asset('theme/images/banner.jpg')}});">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">

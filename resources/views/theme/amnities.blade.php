@@ -3,7 +3,7 @@
 <aside id="colorlib-hero">
 	<div class="flexslider">
 		<ul class="slides">
-	   	<li style="background-image: url({{asset('theme/images/img_bg_5.jpg')}});">
+	   	<li style="background-image: url({{asset('theme/images/slider5.jpg')}});">
 	   		<div class="overlay"></div>
 	   		<div class="container-fluid">
 	   			<div class="row">
@@ -23,47 +23,53 @@
 	<div class="container">
 		<div class="row">
 			<div class="amenities-flex">
-				<div class="amenities-img animate-box" style="background-image: url({{asset('theme/images/amenities-1.jpg')}});"></div>
+				<div class="amenities-img animate-box" style="background-image: url({{asset('theme/images/parking.jpg')}});"></div>
 				<div class="desc animate-box">
 					<h2><a href="#">Airport Shuttle &amp; Parking Lot</a></h2>
 					<p class="price">
 						<span class="free">Free</span>
 					</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi voluptates eius, nam laudantium, quasi laborum cumque asperiores totam est perferendis itaque id esse quidem recusandae sequi aut? Ratione, enim, consequatur!</p>
+					<p>
+						The day you feel like you've won, you need to drive out of the parking lot and not come back.
+					</p>
 				</div>
 				<div class="desc animate-box">
 					<h2><a href="#">Room Service </a></h2>
 					<p class="price">
 						<span class="free">Free</span>
 					</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi voluptates eius, nam laudantium, quasi laborum cumque asperiores totam est perferendis itaque id esse quidem recusandae sequi aut? Ratione, enim, consequatur!</p>
+					<p>This is an elegant hotel! Room service has an unlisted number.</p>
 				</div>
-				<div class="amenities-img animate-box" style="background-image: url(images/room-5.jpg);"></div>
-				<div class="amenities-img animate-box" style="background-image: url({{asset('theme/images/amenities-2.jpg')}});"></div>
+				<div class="amenities-img animate-box" style="background-image: url(theme/images/service.jpg);"></div>
+				<div class="amenities-img animate-box" style="background-image: url({{asset('theme/images/desk.jpg')}});"></div>
 				<div class="desc animate-box">
-					<h2><a href="#">SPA &amp; Beauty Centre</a></h2>
+					<h2><a href="#">24/7 &amp; Front Desk</a></h2>
 					<p class="price">
 						<span class="currency">$</span>
-						<span class="price-room">59</span>
-						<span class="per">/ per person</span>
+						<span class="price-room">5</span>
+						<span class="per">/ per night</span>
 					</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi voluptates eius, nam laudantium, quasi laborum cumque asperiores totam est perferendis itaque id esse quidem recusandae sequi aut? Ratione, enim, consequatur!</p>
+					<p>
+						If the world is in complete flux for me and life is falling apart, if I just manage to get myself in front of a computer or at my desk, it calms.
+					</p>
 				</div>
 				<div class="desc animate-box">
-					<h2><a href="#">Conference Hall for Business Events</a></h2>
+					<h2><a href="#">Picnic &amp; Barbeque</a></h2>
 					<p class="price">
 						<span class="currency">$</span>
-						<span class="price-room">359</span>
-						<span class="per">/ per night / room</span>
+						<span class="price-room">2</span>
+						<span class="per">/ per plate</span>
 					</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi voluptates eius, nam laudantium, quasi laborum cumque asperiores totam est perferendis itaque id esse quidem recusandae sequi aut? Ratione, enim, consequatur!</p>
+					<p>
+						If you look at tailgating, everyone does it. It's for everyone who likes to cook outdoors.
+					</p>
 				</div>
-				<div class="amenities-img animate-box" style="background-image: url({{asset('theme/images/amenities-3.jpg')}});"></div>
+				<div class="amenities-img animate-box" style="background-image: url({{asset('theme/images/picnic.jpg')}});"></div>
 			</div>
 		</div>
 	</div>
 </div>
-<div id="colorlib-subscribe" style="background-image: url({{asset('theme/images/img_bg_2.jpg')}});">
+<div id="colorlib-subscribe" style="background-image: url({{asset('theme/images/banner.jpg')}});">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">

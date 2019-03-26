@@ -8,7 +8,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-4">
-                            <p class="site">www.myaewsomehotel.com</p>
+                            <p class="site">www.hotellekhnathviewtower.com.np</p>
                         </div>
                         <div class="col-xs-8 text-right">
                             <p class="num">Call: +9842089687</p>
@@ -26,7 +26,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-2">
-                            <div id="colorlib-logo"><a href="{{route('index')}}">MyAewsomeHotel</a></div>
+                            
+                            <div id="colorlib-logo"><a href="{{route('index')}}">
+                                <img src="{{asset('theme/images/logo.png')}}" width="100px">
+                            </a></div>
                         </div>
                         <div class="col-xs-10 text-right menu-1">
                             <ul><?php $segment = Request::segment(2); ?>

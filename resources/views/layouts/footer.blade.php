@@ -36,16 +36,16 @@
                     <div class="col-md-3 col-md-push-1">
                         <h4>Contact Information</h4>
                         <ul class="colorlib-footer-links">
-                            <li>291 South 21th Street, <br> Suite 721 New York NY 10016</li>
+                            <li>pachbhaiya pokhara-31, <br> Pokhara</li>
                             <li><a href="tel://9842089687">9842089687</a></li>
-                            <li><a href="mailto:jinesh1094@gmail.com">jinesh1094@gmail.com</a></li>
-                            <li><a href="http://myaewsomehotel">myaewsomehotel</a></li>
+                            <li><a href="hotellekhnathviewtower2075@gmail.com">hotellekhnathviewtower2075@gmail.com</a></li>
+                            <li><a href="{{config('app.url')}}">{{config('app.name')}}</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12 text-center" >
-                        <p>All rights reserved |&copy; MyAewsomeHotel</p>
+                        <p>All rights reserved |&copy; {{config('app.name')}}</p>
                         <p style="display:none;">
                             <small class="block"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart3" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>

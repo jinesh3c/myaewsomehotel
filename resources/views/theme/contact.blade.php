@@ -177,7 +177,7 @@
 		<iframe class="size-303" id="google_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7034.934095703685!2d84.05367142539995!3d28.162708230421945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995bd826606bfad%3A0xc8e3b8d62d5de765!2sTalchowk%2C+Lekhnath+33700!5e0!3m2!1sen!2snp!4v1550151420919" width="90%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</div>
 
-<div id="colorlib-subscribe" style="background-image: url({{asset('theme/images/img_bg_2.jpg')}});">
+<div id="colorlib-subscribe" style="background-image: url({{asset('theme/images/banner.jpg')}});">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
