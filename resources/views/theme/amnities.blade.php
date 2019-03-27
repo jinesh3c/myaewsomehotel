@@ -41,7 +41,8 @@
 					<p>This is an elegant hotel! Room service has an unlisted number.</p>
 				</div>
 				<div class="amenities-img animate-box" style="background-image: url(theme/images/service.jpg);"></div>
-				<div class="amenities-img animate-box" style="background-image: url({{asset('theme/images/desk.jpg')}});"></div>
+				<div class="amenities-img animate-box" style="background-image: url({{asset('theme/images/desk.jpg')}});">
+				</div>
 				<div class="desc animate-box">
 					<h2><a href="#">24/7 &amp; Front Desk</a></h2>
 					<p class="price">
@@ -64,7 +65,8 @@
 						If you look at tailgating, everyone does it. It's for everyone who likes to cook outdoors.
 					</p>
 				</div>
-				<div class="amenities-img animate-box" style="background-image: url({{asset('theme/images/picnic.jpg')}});"></div>
+				<div class="amenities-img animate-box" style="background-image: url({{asset('theme/images/picnic.jpg')}});">
+				</div>
 			</div>
 		</div>
 	</div>

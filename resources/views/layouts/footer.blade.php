@@ -4,16 +4,19 @@
             <div class="container">
                 <div class="row row-pb-md">
                     <div class="col-md-3 colorlib-widget">
-                        <h4>MyAewsomeHotel</h4>
+                        <h4>{{config('app.name')}}</h4>
                         <p>
                             विना दिन, गते अचानक आउने र जाने मानिसलाई अतिथि (भगवान) भन्दछन् ।    
                         </p>
                         <p>
+                        	On the day of October, a person arrives suddenly and known as guest (Lord).
+                        </p>
+                        <p>
                             <ul class="colorlib-social-icons">
-                                <li><a href="#"><i class="icon-twitter"></i></a></li>
-                                <li><a href="#"><i class="icon-facebook"></i></a></li>
-                                <li><a href="#"><i class="icon-linkedin"></i></a></li>
-                                <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                                <li><a href="https://www.facebook.com/groups/273370933317805/"><i class="icon-twitter"></i></a></li>
+                                <li><a href="https://www.facebook.com/groups/273370933317805/"><i class="icon-facebook"></i></a></li>
+                                <li><a href="https://www.facebook.com/groups/273370933317805/"><i class="icon-linkedin"></i></a></li>
+                                <li><a href="https://www.facebook.com/groups/273370933317805/"><i class="icon-dribbble"></i></a></li>
                             </ul>
                         </p>
                     </div>

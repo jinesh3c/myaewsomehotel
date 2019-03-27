@@ -270,7 +270,7 @@
                     </div>
                 </div>
              </div>
-             <div class="half diningbar-img" style="background-image: url({{asset('theme/images/home.jpg')}});"></div>
+             <div class="half diningbar-img" style="background-image: url({{asset('theme/images/home.png')}});"></div>
           </div>
        </div>
   </div>
@@ -347,6 +347,20 @@
                             </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="colorlib-subscribe" style="background-image: url({{asset('theme/images/slider5.jpg')}});">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-6">
+                <h3 style="color:white;">Are you prepared for your trip? If not then, Let us guide you.</h3 style="color:white;">
+            </div>
+            <div class="col-md-6">
+                <a href="{{route('blog')}}" class="btn btn-sm btn-primary">Explore With Us</a>
             </div>
         </div>
     </div>

@@ -3,15 +3,15 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>MyAewsome Hotel</title>
+    <title>{{config('app.name')}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
+    <meta name="description" content="Lekhnath hotel, is one of the hotel in pokhara where visitors can have aewsome view of pokhara which also provide luxury rooms and foods as service to customers." />
+    <meta name="keywords" content="hotel, pokhara hotel, lake side, view tower pokhara, lekhnath view tower, lekhnath hotel" />
+    <meta name="author" content="jinesh subedi" />
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
-    
+    <link rel="icon" href="{{asset('theme/images/logo.png')}}" type="image/gif" sizes="16x16">
     <!-- Animate.css -->
     <link rel="stylesheet" href="{{asset('theme/css/animate.css')}}">
     <!-- Icomoon Icon Fonts-->

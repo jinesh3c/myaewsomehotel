@@ -38,9 +38,7 @@
 
                             <td>
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        <a href="{{Route('booking.edit',$book->id)}}" class="btn btn-info"><i class="fa fa-reply" aria-hidden="true"></i></a>
-                                    </div>
+                                    
                                     <div class="col-md-4">
                                         <form action="{{route('booking.update',$book->id)}}" method="post">
                                             <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">

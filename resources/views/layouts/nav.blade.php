@@ -11,7 +11,7 @@
                             <p class="site">www.hotellekhnathviewtower.com.np</p>
                         </div>
                         <div class="col-xs-8 text-right">
-                            <p class="num">Call: +9842089687</p>
+                            <p class="num">Call: 9856052139, 9846750139</p>
                             <ul class="colorlib-social">
                                 <li><a href="#"><i class="icon-twitter"></i></a></li>
                                 <li><a href="#"><i class="icon-facebook"></i></a></li>
@@ -41,10 +41,13 @@
                                         @endif"><a href="{{route('rooms')}}">Rooms</a></li>
                                 <li class="@if($segment=='amnities')
                                         {{'active'}}
-                                        @endif"><a href="{{route('amnities')}}">Amnities</a></li>
+                                        @endif"><a href="{{route('amnities')}}">Amenities</a></li>
                                 <li class="@if($segment=='about')
                                         {{'active'}}
                                         @endif"><a href="{{route('about')}}">About</a></li>
+                                <li class="@if($segment=='blog')
+                                        {{'active'}}
+                                        @endif"><a href="{{route('blog')}}">Blog</a></li>
                                 <li class="@if($segment=='contact')
                                         {{'active'}}
                                         @endif"><a href="{{route('contact')}}">Contact</a></li>

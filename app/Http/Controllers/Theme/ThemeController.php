@@ -20,6 +20,10 @@ class ThemeController extends Controller
     {
     	return view('theme/about');
     }
+    public function blog()
+    {
+        return view('theme/blog');
+    }
     public function contact()
     {
         $rooms = Room::all();
