@@ -105,7 +105,11 @@
         </div>
     </div>
 </div>
-
+<br>
+<!-- Map -->
+  <div class="map text-center">
+    <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="481" id="gmap_canvas" src="https://maps.google.com/maps?q=hotel%20lekhnath%20view%20tower&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.emojilib.com">emojilib.com</a></div><style>.mapouter{position:relative;text-align:right;height:481px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:481px;width:100%;}</style></div>
+  </div>
 <div id="colorlib-contact">
 	<div class="container">
 		<div class="row">
@@ -113,7 +117,7 @@
 				<h3>Contact Information</h3>
 				<div class="row contact-info-wrap">
 					<div class="col-md-3">
-						<p><span><i class="icon-location-2"></i></span> 198 West 21th Street, <br> Suite 721 New York NY 10016</p>
+						<p><span><i class="icon-location-2"></i></span> pachbhaiya, pokhara-31 <br> Pokhara</p>
 					</div>
 					<div class="col-md-3">
 						<p><span><i class="icon-phone3"></i></span> <a href="tel://9842089687">+ 9842089687</a></p>
@@ -122,7 +126,7 @@
 						<p><span><i class="icon-paperplane"></i></span> <a href="mailto:jinesh1094@gmail.com">jinesh1094@gmail.com</a></p>
 					</div>
 					<div class="col-md-3">
-						<p><span><i class="icon-globe"></i></span> <a href="#">luxehotel.com</a></p>
+						<p><span><i class="icon-globe"></i></span> <a href="{{config('app.url')}}">{{config('app.name')}}</a></p>
 					</div>
 				</div>
 			</div>
@@ -170,13 +174,6 @@
 		</div>
 	</div>
 </div>
-
-<!-- Map -->
-	<div class="map text-center">
-		{{-- <div class="size-303" id="google_map" data-map-x="40.691446" data-map-y="-73.886787" data-pin="{{asset('frontend/images/icons/pin.png')}}" data-scrollwhell="0" data-draggable="1" data-zoom="11"></div> --}}
-		<iframe class="size-303" id="google_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7034.934095703685!2d84.05367142539995!3d28.162708230421945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995bd826606bfad%3A0xc8e3b8d62d5de765!2sTalchowk%2C+Lekhnath+33700!5e0!3m2!1sen!2snp!4v1550151420919" width="90%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-	</div>
-
 <div id="colorlib-subscribe" style="background-image: url({{asset('theme/images/banner.jpg')}});">
     <div class="overlay"></div>
     <div class="container">
