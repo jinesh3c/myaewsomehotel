@@ -32,7 +32,7 @@
                             </a></div>
                         </div>
                         <div class="col-xs-10 text-right menu-1">
-                            <ul><?php $segment = Request::segment(2); ?>
+                            <ul><?php $segment = Request::segment(1); ?>
                                 <li class="@if($segment=='')
                                         {{'active'}}
                                         @endif"><a href="{{route('index')}}">Home</a></li>
