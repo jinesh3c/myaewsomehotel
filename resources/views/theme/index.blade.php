@@ -293,57 +293,85 @@
                     <div class="col-md-6 animate-box">
                             <span class="img" style="background-image: url({{asset('theme/images/breakfast.jpg')}});"></span>
                             <div class="desc">
-                                <h3>Break Fast</h3>
-                                <span class="cat"> Rs 100</span>
-                            </div>
-                    </div>
-                    <div class="col-md-6 animate-box">
-                            <span class="img" style="background-image: url({{asset('theme/images/blog-2.jpg')}});"></span>
-                            <div class="desc">
-                                <h3>Fish</h3>
-                                <span class="cat">Rs 200</span>
-                            </div>
-                    </div>
-                    <div class="col-md-6 animate-box">
-                            <span class="img" style="background-image: url({{asset('theme/images/blog-2.jpg')}});"></span>
-                            <div class="desc">
-                                <h3>Vegeterain</h3>
-                                <span class="cat">Rs 150</span>
-                            </div>
-                    </div>
-                    <div class="col-md-6 animate-box">
-                            <span class="img" style="background-image: url({{asset('theme/images/non-veg.jpg')}});"></span>
-                            <div class="desc">
-                                <h3>Non-Vegeterain</h3>
-                                <span class="cat">Rs 300</span>
-                            </div>
-                    </div>
-                    <div class="col-md-6 animate-box">
-                            <span class="img" style="background-image: url({{asset('theme/images/blog-2.jpg')}});"></span>
-                            <div class="desc">
-                                <h3>Fish</h3>
-                                <span class="cat">Rs 200</span>
+                                <h3>Cold Coffee</h3>
+                                <span class="cat"> Rs 50</span>
                             </div>
                     </div>
                     <div class="col-md-6 animate-box">
                             <span class="img" style="background-image: url({{asset('theme/images/breakfast.jpg')}});"></span>
                             <div class="desc">
-                                <h3>Break Fast</h3>
-                                <span class="cat"> Rs 100</span>
+                                <h3>Masala Tea</h3>
+                                <span class="cat"> Rs 40</span>
                             </div>
                     </div>
                     <div class="col-md-6 animate-box">
                             <span class="img" style="background-image: url({{asset('theme/images/blog-2.jpg')}});"></span>
                             <div class="desc">
-                                <h3>Fish</h3>
+                                <h3>Brownies</h3>
                                 <span class="cat">Rs 200</span>
                             </div>
                     </div>
                     <div class="col-md-6 animate-box">
                             <span class="img" style="background-image: url({{asset('theme/images/blog-2.jpg')}});"></span>
                             <div class="desc">
-                                <h3>Fish</h3>
-                                <span class="cat">Rs 200</span>
+                                <h3>Egg Sandwich</h3>
+                                <span class="cat">Rs 70</span>
+                            </div>
+                    </div>
+                    <div class="col-md-6 animate-box">
+                            <span class="img" style="background-image: url({{asset('theme/images/non-veg.jpg')}});"></span>
+                            <div class="desc">
+                                <h3>Dhedo</h3>
+                                <span class="cat">Rs 350</span>
+                            </div>
+                    </div>
+                    <div class="col-md-6 animate-box">
+                            <span class="img" style="background-image: url({{asset('theme/images/blog-2.jpg')}});"></span>
+                            <div class="desc">
+                                <h3>Veg Thali</h3>
+                                <span class="cat">Rs 250</span>
+                            </div>
+                    </div>
+                    <div class="col-md-6 animate-box">
+                            <span class="img" style="background-image: url({{asset('theme/images/breakfast.jpg')}});"></span>
+                            <div class="desc">
+                                <h3>Chicken/Fish Thali</h3>
+                                <span class="cat"> Rs 350</span>
+                            </div>
+                    </div>
+                    <div class="col-md-6 animate-box">
+                            <span class="img" style="background-image: url({{asset('theme/images/blog-2.jpg')}});"></span>
+                            <div class="desc">
+                                <h3>Mutton Thali</h3>
+                                <span class="cat">Rs 450</span>
+                            </div>
+                    </div>
+                    <div class="col-md-6 animate-box">
+                            <span class="img" style="background-image: url({{asset('theme/images/blog-2.jpg')}});"></span>
+                            <div class="desc">
+                                <h3>Lassi Banana</h3>
+                                <span class="cat">Rs 100</span>
+                            </div>
+                    </div>
+                    <div class="col-md-6 animate-box">
+                            <span class="img" style="background-image: url({{asset('theme/images/blog-2.jpg')}});"></span>
+                            <div class="desc">
+                                <h3>Mushroom Soup</h3>
+                                <span class="cat">Rs 350</span>
+                            </div>
+                    </div>
+                    <div class="col-md-6 animate-box">
+                            <span class="img" style="background-image: url({{asset('theme/images/blog-2.jpg')}});"></span>
+                            <div class="desc">
+                                <h3>Mix Fry Rice</h3>
+                                <span class="cat">Rs 220</span>
+                            </div>
+                    </div>
+                    <div class="col-md-6 animate-box">
+                            <span class="img" style="background-image: url({{asset('theme/images/blog-2.jpg')}});"></span>
+                            <div class="desc">
+                                <h3>Paratha</h3>
+                                <span class="cat">Rs 70</span>
                             </div>
                     </div>
                 </div>
