@@ -67,9 +67,14 @@
 <!-- Your customer chat code -->
 <div class="fb-customerchat"
   attribution=setup_tool
-  page_id="325846901336455"
-  logged_in_greeting="Welcome! "
-  logged_out_greeting="Welcome! ">
+  page_id="1563675720433652"
+  theme_color="#6699cc"
+  logged_in_greeting="Namastey! How can we help you?"
+  logged_out_greeting="Namastey! How can we help you?">
 </div>
+{{-- facebook page --}}
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=2266965833629953&autoLogAppEvents=1"></script>
+
     <div class="colorlib-loader"></div>
     <div id="page">

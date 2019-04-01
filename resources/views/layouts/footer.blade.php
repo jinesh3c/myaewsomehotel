@@ -33,7 +33,7 @@
                     </div>
                     <div class="col-md-3">
                         <h4>Facebook page</h4>
-                        <div class="fb-page" data-href="https://www.facebook.com/jineshcast/" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/jineshcast/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/jineshcast/">Jineshsubedi.com.np</a></blockquote></div>
+                        <div class="fb-page" data-href="https://www.facebook.com/Hotel-Lekhnath-View-Tower-1563675720433652/?modal=admin_todo_tour" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Hotel-Lekhnath-View-Tower-1563675720433652/?modal=admin_todo_tour" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Hotel-Lekhnath-View-Tower-1563675720433652/?modal=admin_todo_tour">Hotel Lekhnath View Tower</a></blockquote></div>
                     </div>
 
                     <div class="col-md-3 col-md-push-1">
