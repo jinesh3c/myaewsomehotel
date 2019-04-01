@@ -68,7 +68,6 @@
 <div class="fb-customerchat"
   attribution=setup_tool
   page_id="1563675720433652"
-  theme_color="#6699cc"
   logged_in_greeting="Namastey! How can we help you?"
   logged_out_greeting="Namastey! How can we help you?">
 </div>
