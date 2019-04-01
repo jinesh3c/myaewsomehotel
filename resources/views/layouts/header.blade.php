@@ -68,8 +68,8 @@
 <div class="fb-customerchat"
   attribution=setup_tool
   page_id="1563675720433652"
-  logged_in_greeting="Namastey! How can we help you?"
-  logged_out_greeting="Namastey! How can we help you?">
+  logged_in_greeting="Namastey! "
+  logged_out_greeting="Namastey! ">
 </div>
 {{-- facebook page --}}
 <div id="fb-root"></div>
