@@ -267,6 +267,14 @@
                         The hotel is arranged on two floors, without a lift. On the ground floor, apart from the reception, there is a comfortable lounge where you can sit and drink tea, or just read. There is also a splendid terrace, where, you can relax and immerge yourself from morning onwards in the atmosphere of Pokhara daily life
                         The rooms are arranged on the first and second. On the top floor, there is also a delightful terrace or solarium available for the use of guests, from where you can enjoy the wonderful view.
                         The breakfast is served in the lounge on the ground floor, and also outside during the summer months.</p>
+                        
+                        {{-- facebook sdk --}}
+                        <div id="fb-root"></div>
+                        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=2266965833629953&autoLogAppEvents=1"></script>
+                        {{-- facebook share button --}}
+                        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                        {{-- facebook save to facebook --}}
+                        <div class="fb-save" data-uri="https://www.facebook.com/Hotel-Lekhnath-View-Tower-1563675720433652/?modal=admin_todo_tour" data-size="small"></div>
                     </div>
                 </div>
              </div>
