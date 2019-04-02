@@ -57,6 +57,7 @@ class RoomController extends Controller
           $data->image_path = $path_name;
         }
         $data->save();
+        notify()->flash('Room added successfully!', 'success');
         return redirect()->route('room.index')->with('success','Room added successfully');
     }
 
@@ -112,6 +113,7 @@ class RoomController extends Controller
           $data->image_path = $path_name;
         }
         $data->save();
+        notify()->flash('Room updated successfully', 'success');
         return redirect()->route('room.index')->with('success','Room updated successfully');
     }
 
@@ -124,6 +126,7 @@ class RoomController extends Controller
     public function destroy($id)
     {
         Room::find($id)->delete();
+        notify()->flash('Room deleted successfully', 'success');
         return redirect()->route('room.index')->with('success','Room deleted successfully');
     }
 }

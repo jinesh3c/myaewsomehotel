@@ -30,6 +30,11 @@
                                 <li><a href="{{route('amnities')}}">Contact</a></li>
                             </ul>
                         </p>
+                        <span>
+                            <p style="font-family: 'Dancing Script', cursive; font-size:30px;">Also book us from
+                            <a href="https://www.booking.com/hotel/np/lekhnath-view-tower.html?lang=xu"><img src="{{asset('theme/images/booking.png')}}" width="60%"></a>
+                            </p>
+                        </span>
                     </div>
                     <div class="col-md-3">
                         <h4>Facebook page</h4>
@@ -85,7 +90,20 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!-- Main -->
     <script src="{{asset('theme/js/main.js')}}"></script>
     <!-- <script src="{{asset('js/app.js')}}"></script> -->
-
+    {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.js"></script> --}}
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@7/dist/sweetalert2.all.min.js"></script>
+@if (notify()->ready())
+    <script>
+        swal({
+            title: "{!! notify()->message() !!}",
+            type: "{{ notify()->type() }}",
+            @if (notify()->option('timer'))
+                timer: {{ notify()->option('timer') }},
+                showConfirmButton: false
+            @endif
+        });
+    </script>
+@endif
     </body>
 </html>
 

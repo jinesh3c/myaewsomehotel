@@ -73,6 +73,7 @@ class BookinController extends Controller
     public function update(Request $request, $id)
     {
         Booking::where('id', $id)->update(['status'=> $request->status]);
+        notify()->flash('Booking status has been changed', 'success');
         return redirect()->route('booking.index')->with('success','booking status updated successfully');
     }
 

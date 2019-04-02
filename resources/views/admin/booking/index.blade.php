@@ -16,6 +16,8 @@
                             <th>SN</th>
                             <th>Room</th>
                             <th>Name</th>
+                            <th>Phone</th>
+                            <th>Email</th>
                             <th>Type</th>
                             <th>Check In</th>
                             <th>Check Out</th>
@@ -27,6 +29,8 @@
                             <td>{{$k+1}}</td>
                             <td>{{$book->room->name}}</td>
                             <td>{{$book->name}}</td>
+                            <td>{{$book->phone}}</td>
+                            <td>{{$book->email}}</td>
                             <td>{{$book->type}}</td>
                             <td>
                                 {{ Carbon\Carbon::parse($book->check_in)->toFormattedDateString()}}

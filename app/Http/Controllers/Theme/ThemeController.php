@@ -54,6 +54,7 @@ class ThemeController extends Controller
         $message->subject = $request->subject;
         $message->message = $request->message;
         $message->save();
+        notify()->flash('Thank yo for yor message, we soon reply!', 'success');
         return redirect()->route('contact')->with('success','message send successfully');
     }
     public function book(Request $request)
@@ -79,6 +80,7 @@ class ThemeController extends Controller
         $booking->phone = $request->phone;
         $booking->status = 'pending';
         $booking->save();
+        notify()->flash('we recieved you booking, soon we wil notify you. Thank you!', 'success');
         return redirect()->back()->with('success','booking send successfully');
     }
     public function ajaxRequest(Request $request)

@@ -13,10 +13,10 @@
                         <div class="col-xs-8 text-right">
                             <p class="num">Call: 9856052139, 9846750139</p>
                             <ul class="colorlib-social">
-                                <li><a href="#"><i class="icon-twitter"></i></a></li>
-                                <li><a href="#"><i class="icon-facebook"></i></a></li>
-                                <li><a href="#"><i class="icon-linkedin"></i></a></li>
-                                <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                                <li><a href="https://www.facebook.com/Hotel-Lekhnath-View-Tower-1563675720433652"><i class="icon-twitter"></i></a></li>
+                                <li><a href="https://www.facebook.com/Hotel-Lekhnath-View-Tower-1563675720433652"><i class="icon-facebook"></i></a></li>
+                                <li><a href="https://www.facebook.com/Hotel-Lekhnath-View-Tower-1563675720433652"><i class="icon-linkedin"></i></a></li>
+                                <li><a href="https://www.facebook.com/Hotel-Lekhnath-View-Tower-1563675720433652"><i class="icon-dribbble"></i></a></li>
                             </ul>
                         </div>
                     </div>

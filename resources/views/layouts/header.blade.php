@@ -11,6 +11,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link rel="icon" href="{{asset('theme/images/logo.png')}}" type="image/gif" sizes="16x16">
     <!-- Animate.css -->
     <link rel="stylesheet" href="{{asset('theme/css/animate.css')}}">
@@ -34,6 +35,10 @@
     <!-- Flaticons  -->
     <link rel="stylesheet" href="{{asset('theme/fonts/flaticon/font/flaticon.css')}}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    {{-- sweet alert --}}
+    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.css"> --}}
+    <link rel="stylesheet" href="node_modules/sweetalert/dist/sweetalert.css">
 
     <!-- Theme style  -->
     <link rel="stylesheet" href="{{asset('theme/css/style.css')}}">
@@ -70,7 +75,7 @@
   page_id="1563675720433652"
   theme_color="#6699cc"
   logged_in_greeting="Namastey!  होटल लेखनाथ भिउ टवोर मा स्वागत छ|"
-  logged_out_greeting="Namastey!  होटल लेखनाथ भिउ टवोर मा स्वागत छ|">
+  logged_out_greeting="धन्यबाद! फेरी आउदै गर्नु होला|">
 </div>
     <div class="colorlib-loader"></div>
     <div id="page">
