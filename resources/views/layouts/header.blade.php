@@ -68,12 +68,9 @@
 <div class="fb-customerchat"
   attribution=setup_tool
   page_id="1563675720433652"
-  logged_in_greeting="Namastey! "
-  logged_out_greeting="Namastey! ">
+  theme_color="#6699cc"
+  logged_in_greeting="Namastey!  होटल लेखनाथ भिउ टवोर मा स्वागत छ|"
+  logged_out_greeting="Namastey!  होटल लेखनाथ भिउ टवोर मा स्वागत छ|">
 </div>
-{{-- facebook page --}}
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=2266965833629953&autoLogAppEvents=1"></script>
-
     <div class="colorlib-loader"></div>
     <div id="page">
