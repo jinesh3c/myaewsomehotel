@@ -48,7 +48,7 @@ class BookinController extends Controller
      */
     public function show($id)
     {
-        $book = Bookings::find($id);
+        $book = Booking::find($id);
         return view('admin.booking.show',compact('book'));
     }
 
@@ -72,9 +72,13 @@ class BookinController extends Controller
      */
     public function update(Request $request, $id)
     {
-        Booking::where('id', $id)->update(['status'=> $request->status]);
+        $data = Booking::where('id', $id)->update(['status'=> $request->status]);
+        if(!$data){
+            notify()->flash('Booking status cannot be changed.', 'error');
+            return redirect()->back();
+        }
         notify()->flash('Booking status has been changed', 'success');
-        return redirect()->route('booking.index')->with('success','booking status updated successfully');
+        return redirect()->back();
     }
 
     /**

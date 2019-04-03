@@ -42,13 +42,15 @@
 
                             <td>
                                 <div class="row">
-                                    
+                                    <a href="{{route('booking.show',$book->id)}}" class="btn btn-info"><i class="fa fa-eye" aria-hidden="true"></i></a>
                                     <div class="col-md-4">
                                         <form action="{{route('booking.update',$book->id)}}" method="post">
                                             <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
                                             {{method_field("PUT")}}
                                             <input type="hidden" name="status" value="success">
-                                            <button type="submit" class="btn btn-success"><i class="fa fa-check" aria-hidden="true"></i></button>
+                                            <button type="submit" 
+                                            onclick='return confirm("Are you sure want to change?")' 
+                                            class="btn btn-success"><i class="fa fa-check" aria-hidden="true"></i></button>
                                         </form>
                                     </div>
                                     <div class="col-md-4">
@@ -56,7 +58,9 @@
                                             <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
                                             {{method_field("PUT")}}
                                             <input type="hidden" name="status" value="canceled">
-                                            <button type="submit" class="btn btn-danger"><i class="fa fa-times" aria-hidden="true"></i></button>
+                                            <button type="submit" 
+                                            onclick='return confirm("Are you sure want to change?")'
+                                            class="btn btn-danger"><i class="fa fa-times" aria-hidden="true"></i></button>
                                         </form>
                                     </div>
                                 </div>
